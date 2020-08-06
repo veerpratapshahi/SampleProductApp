@@ -7,7 +7,7 @@ namespace SampleProductApp.ProductModel
     /// <summary>
     /// Gets or sets the product. 
     /// </summary>
-  class Product
+  public class Product
     {  
         public Product(string id)
         {

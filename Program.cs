@@ -5,10 +5,10 @@ using SampleProductApp.ProductHelper;
 
 namespace SampleProductApp
 {
-    class Program
+   public class Program
     {
         /// <summary>
-        /// 
+        /// This is main class.
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
@@ -24,7 +24,6 @@ namespace SampleProductApp
                     Console.WriteLine("Enter the type of product:A,B,C or D");
                     string type = Console.ReadLine();
                     Product product = new Product(type);
-                    productUtility.GetPriceByType(product);
                     products.Add(product);
                 }
 
